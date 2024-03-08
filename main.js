@@ -45,10 +45,10 @@ ScrollReveal({
     delay: 200,
 });
 
-ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
+ScrollReveal().reveal('.home-content, heading, .header', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-contact h1, .about-img , .social-media', { origin: 'left' });
+ScrollReveal().reveal('.home-contact p, .about-content, h2, .btn', { origin: 'right' });
 
 // typed js
 const typed = new Typed('.multiple-text', {
