@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-contact p, .about-content, h2, .btn', { origin: 'ri
 
 // typed js
 const typed = new Typed('.multiple-text', {
-    strings: ['Designer', 'Developer'],
+    strings: ['Designer', 'Developer','Enginner'],
     typeSpeed: 40,
     backSpeed: 40,
     backDelay: 1000,
